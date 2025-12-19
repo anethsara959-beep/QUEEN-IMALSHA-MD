@@ -1,0 +1,23 @@
+{
+  "name": "QUEEN IMALSHA WhatsApp Bot",
+  "description": "Multi-device WhatsApp Bot by SILA",
+  "repository": "https://github.com/anethsara959-beep/TEST-MD-FACK-BOT",
+  "logo": "https://files.catbox.moe/letvwf.jpg",
+  "keywords": ["whatsapp", "bot", "multi-device", "baileys"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "NPM_CONFIG_LEGACY_PEER_DEPS": {
+      "description": "Fix npm peer dependency conflicts",
+      "value": "true"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  }
+}
